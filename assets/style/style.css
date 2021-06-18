@@ -441,3 +441,132 @@ table {
 	font-size: 16px;
 	font-weight: 700;
 }
+
+/* -- Gallery --*/
+
+.box img{
+	width: 60vh;
+	border: 2px solid #2D2020;
+}
+
+.gallery-page{
+	width: 200vh;
+	display: flex;
+	border-top: 2px solid #515151;
+}
+
+/* --Aside--*/
+
+.gallery-page .aside{
+	width: 25%;
+	height: 95vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #E4503E;
+	padding: 1.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.gallery-page .aside .header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gallery-page .aside .header .brand{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gallery-page .aside .header .brand img{
+	width: 80px;
+}
+
+.gallery-page .aside .header .brand h1{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	margin-left: 24px;
+}
+
+.gallery-page .aside .header .nav-home{
+	padding: 12px;
+	border: 2px solid white;
+	border-radius: 3px;
+}
+
+.gallery-page .aside .header .nav-home a{
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.gallery-page .aside .content h2{
+	font-size: 24px;
+	font-weight: 900;
+	color: white;
+	margin: 12px 0;
+}
+
+.gallery-page .aside .content p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7;
+	color: white;
+	margin: 12px 0;
+}
+
+.gallery-page .aside .content .nav-icon{
+	display: flex;
+	margin: 12px 0;
+}
+
+.gallery-page .aside .content .nav-icon .icon-box{
+	border-radius: 50%;
+	margin-right: 24px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	color: white;
+	border: 2px solid white;
+}
+
+
+/* --gallery/gallery-- */
+
+.gallery-page .gallery{
+	margin-left: 30%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gallery-page .gallery h2{
+	font-size: 40px;
+	color: #272727;
+	font-weight: 900;
+	margin: 12px 0;
+}
+
+.gallery-page .gallery .image-container{
+	width: 100%;
+	height: 400vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-evenly;
+}
+
+.gallery-page .gallery .image-container .box{
+	margin: 24px 0;
+}
